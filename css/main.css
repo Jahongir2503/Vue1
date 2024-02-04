@@ -1,6 +1,6 @@
 body {
     font-family: tahoma;
-    color:#282828;
+    color: #282828;
     margin: 0px;
 }
 
@@ -60,7 +60,7 @@ button {
     background-color: #d8d8d8;
 }
 
-.disabledText{
+.disabledText {
     text-decoration: line-through;
 }
 
@@ -90,4 +90,22 @@ textarea {
 .activeTab {
     color: #16C0B0;
     text-decoration: underline;
+}
+
+
+.star-rating {
+    font-size: 24px;
+}
+
+.star-rating span {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.sel {
+    color: gold;
+}
+
+.nsel {
+    color: #ccc;
 }
